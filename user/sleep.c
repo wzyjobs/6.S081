@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
   }
 
   if (sleep(atoi(argv[1])) < 0) {
-    fprintf(2, "sleep: %s failed to exec sleep\n", argv[0]);
+    fprintf(2, "sleep: %s failed to exec sleep\n", argv[1]);
   }
 
   exit(0);
